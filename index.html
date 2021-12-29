@@ -9,11 +9,10 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap" rel="stylesheet">
     <!--Font Awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">   
+    <script src="https://kit.fontawesome.com/f73e1a5c93.js" crossorigin="anonymous"></script>   
     <!--Mi estilo-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Viajes Chile</title>
@@ -44,7 +43,7 @@
           </div>
         </div>
     </nav> 
-
+    <!-- Carousel-->
     <section class="viajesChile_carousel">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -68,84 +67,101 @@
             </button>
         </div>
     </section>
-
+    <!-- ¿Quiénes somos? -->
     <section class="viajesChile_bg">
         <div class="container">
-            <div class="row viajesChile_bg__quienesSomos" id="quienesSomos">
+            <div class="row viajesChile_bg__quienesSomos mb-5" id="quienesSomos">
                 <h2 class="viajesChile_bg__quienesSomos__h2 text-center mb-5 mt-5">¿Quienes somos?</h2>
                 <hr class="viajesChile_bg__quienesSomos__line mb-5">
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="viajesChile_bg__quienesSomos__icono text-center"> <i class="fas fa-plane"></i> </div>
+                <div class="col-12 col-md-4 col-lg-4 gy-2">
+                    <div class="viajesChile_bg__quienesSomos__icono mb-4 text-center"> <i class="fas fa-plane fa-2x"></i> </div>
                     <p class="viajesChile_bg__quienesSomos__p">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia fugiat corrupti expedita consequatur, porro quibusdam sapiente tenetur tempore voluptates? Veniam amet praesentium quo sapiente fuga necessitatibus, qui placeat alias.
                     Ducimus, praesentium. Repellendus, aperiam molestiae tenetur quos accusantium ratione ullam, veritatis iusto laudantium repellat tempora facere, rem ipsa quasi soluta sed odit quae explicabo tempore? A perferendis laborum delectus cum?
                     </p>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <div class="icono"> </div>
                     <p class="viajesChile_bg__quienesSomos__p">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia fugiat corrupti expedita consequatur, porro quibusdam sapiente tenetur tempore voluptates? Veniam amet praesentium quo sapiente fuga necessitatibus, qui placeat alias.
                     Ducimus, praesentium. Repellendus, aperiam molestiae tenetur quos accusantium ratione ullam, veritatis iusto laudantium repellat tempora facere, rem ipsa quasi soluta sed odit quae explicabo tempore? A perferendis laborum delectus cum?
                     </p> 
-                    <div class="viajesChile_bg__quienesSomos__icono text-center"> <i class="fas fa-mountain"></i> </div>
+                    <div class="viajesChile_bg__quienesSomos__icono mt-4 text-center"> <i class="fas fa-mountain fa-2x"></i> </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <div class="viajesChile_bg__quienesSomos__icono text-center"> <i class="fas fa-mountain"></i> </div>
+                    <div class="viajesChile_bg__quienesSomos__icono text-center mb-4"> <i class="fas fa-route fa-2x"></i> </div>
                     <p class="viajesChile_bg__quienesSomos__p">
                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia fugiat corrupti expedita consequatur, porro quibusdam sapiente tenetur tempore voluptates? Veniam amet praesentium quo sapiente fuga necessitatibus, qui placeat alias.
                      Ducimus, praesentium. Repellendus, aperiam molestiae tenetur quos accusantium ratione ullam, veritatis iusto laudantium repellat tempora facere, rem ipsa quasi soluta sed odit quae explicabo tempore? A perferendis laborum delectus cum? 
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="row viajesChile_bg__destacados" id="destacados">
-            <h2 class="viajesChile_bg__destacados__h2 text-center mb-5 mt-5">Destacados</h2>
-            <hr class="viajesChile_bg__destacados__line mb-5">
-            <div class="col-12 col-md-3 col-lg-3">
-                <div class="card viajesChile_bg__destacados__card mb-sm-5">
-                    <img src="assets/img/card1.jpg" class="card-img-top" alt="valle">
-                    <div class="card-body">
-                      <h5 class="card-title">Lorem ipsum dolor amet</h5>
-                      <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+            <!-- Destacados -->
+            <div class="row viajesChile_bg__destacados" id="destacados">
+                <h2 class="viajesChile_bg__destacados__h2 text-center mb-sm-5 mt-sm-5 mb-5 mt-5">Destacados</h2>
+                <hr class="viajesChile_bg__destacados__line mb-5">
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="card viajesChile_bg__destacados__card mb-sm-5">
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="valle">
+                        <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor amet</h5>
+                        <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="card viajesChile_bg__destacados__card mb-sm-5">
+                        <img src="assets/img/card2.jpg" class="card-img-top" alt="montaña arenosa">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor amet</h5>
+                            <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="card viajesChile_bg__destacados__card mb-sm-5">
+                        <img src="assets/img/card3.jpg" class="card-img-top" alt="desierto">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor amet</h5>
+                            <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="card viajesChile_bg__destacados__card mb-sm-5">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="selva">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor amet</h5>
+                            <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 col-lg-3">
-                <div class="card viajesChile_bg__destacados__card mb-sm-5">
-                    <img src="assets/img/card2.jpg" class="card-img-top" alt="montaña arenosa">
-                    <div class="card-body">
-                      <h5 class="card-title">Lorem ipsum dolor amet</h5>
-                      <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
-                    </div>
+            <!-- Contacto -->
+            <div class="row viajesChile_bg__contacto" id="contacto">
+                <h2 class="viajesChile_bg__contacto__h2 text-center mb-5 mt-5">Contacto</h2>
+                <hr class="viajesChile_bg__contacto__line mb-5">
+                <div class="col-12 mb-5">
+                    <div data-tf-widget="S8IGVk9O" data-tf-iframe-props="title=Viajes Chile" style="width:100%;height:400px;"></div>
+                    <script src="//embed.typeform.com/next/embed.js"></script>
                 </div>
             </div>
-            <div class="col-12 col-md-3 col-lg-3">
-                <div class="card viajesChile_bg__destacados__card mb-sm-5">
-                    <img src="assets/img/card3.jpg" class="card-img-top" alt="desierto">
-                    <div class="card-body">
-                      <h5 class="card-title">Lorem ipsum dolor amet</h5>
-                      <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3">
-                <div class="card viajesChile_bg__destacados__card mb-sm-5">
-                    <img src="assets/img/card4.jpg" class="card-img-top" alt="selva">
-                    <div class="card-body">
-                      <h5 class="card-title">Lorem ipsum dolor amet</h5>
-                      <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row viajesChile_bg__contacto" id="contacto">
-            <h2 class="viajesChile_bg__contacto__h2 text-center mb-5 mt-5">Contacto</h2>
-            <hr class="viajesChile_bg__contacto__line mb-5">
         </div>
     </section>
-
+    <!-- Footer -->
     <footer class="footer">
-        
+       <div class="container">
+           <div class="row text-center align-items-center">
+               <div class="col-6">
+                    <p class="footer__p">Viajes Chile</p>
+               </div>
+               <div class="col-6">
+                    <i class="fab fa-instagram fa-2x footer__icon me-3"></i>
+                    <i class="fab fa-twitter-square fa-2x footer__icon me-3"></i>
+                    <i class="fab fa-facebook-square fa-2x footer__icon me-3"></i>
+                    <i class="fab fa-linkedin fa-2x footer__icon"></i>
+               </div>
+           </div>
+       </div> 
     </footer>
 
       
