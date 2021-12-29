@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --calipso:#269EAA;
+    --negro: #000000;
+    --blanco: #ffffff;
+}
+.viajesChile_nav{
+    background-color: var(--calipso);
+}
+.viajesChile_carousel .viajesChile_carousel__img{
+    width: 100%;
+    height: auto;
+}
+.viajesChile_bg{
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+.viajesChile_bg__quienesSomos__h2,
+.viajesChile_bg__destacados__h2,
+.viajesChile_bg__contacto__h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+.viajesChile_bg__quienesSomos__line,
+.viajesChile_bg__destacados__line,
+.viajesChile_bg__contacto__line{
+    border: 2px solid var(--calipso);
+}
+.viajesChile_bg__quienesSomos__p{
+    font-weight: 100;
+}
+
+.viajesChile_bg__destacados__card{
+    background-color: var(--calipso);
+}
+.viajesChile_bg__quienesSomos__icono{
+    background-color: var(--calipso);
+}
+.footer{
+    background-color: var(--calipso);
+}
