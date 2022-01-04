@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;  
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -11,6 +14,9 @@ body{
     --calipso:#17a3b8;
     --negro: #000000;
     --blanco: #ffffff;
+}
+.bg-calipso{
+    background-color: var(--calipso);
 }
 .viajesChile_nav{
     background-color: transparent;
@@ -45,6 +51,15 @@ body{
 }
 .viajesChile_bg__quienesSomos__icono{
     background-color: var(--calipso);
+}
+.viajesChile_bg__quienesSomos__acordeon
+.viajesChile_bg__quienesSomos__accordion-header 
+.viajesChile_bg__quienesSomos__accordion-button{
+    background-color: var(--calipso);
+    color: var(--blanco);
+}
+.viajesChile_bg__quienesSomos__accordion-body{
+    color: var(--negro);
 }
 .footer{
     background-color: var(--calipso);
